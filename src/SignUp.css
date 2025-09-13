@@ -1,0 +1,40 @@
+.signup-bg{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  background: linear-gradient(110deg, #2098d4 60%, #12b515 100%);
+  box-sizing: border-box;
+}
+
+.signup-card{
+  background: #06e0b8;
+  box-shadow: 0 3px 32px #baffca44;
+  border-radius: 2rem;
+  padding: 2.2rem 2rem 2rem 2rem;
+  width: 100%;
+  max-width: 540px;    /* Wider on desktop, feels substantial */
+  min-width: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 760px) {
+  .signup-card, .login-card {
+    max-width: 95vw;
+    padding: 1.5rem 0.6rem;
+    border-radius: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup-card, .login-card {
+    max-width: 99vw;
+    padding: 1rem 0.18rem;
+    border-radius: 1rem;
+  }
+}

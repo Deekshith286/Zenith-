@@ -1,0 +1,48 @@
+.progress-graph-card {
+  background: #e5fffa;
+  border-radius: 1.15rem;
+  padding: 24px 15px;
+  box-shadow: 0 1px 10px #c2ffe1;
+  margin-bottom: 25px;
+}
+.mock-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  height: 135px;
+  margin-top: 10px;
+}
+.mock-bar {
+  width: 34px;
+  border-radius: 10px 10px 0 0;
+  transition: height 0.6s cubic-bezier(.69,.28,.41,1.18), background 0.32s;
+  cursor: pointer;
+  box-shadow: 0 3px 10px #44de8e22;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.mock-bar:hover, .mock-bar:focus {
+  filter: brightness(1.09) drop-shadow(0 2px 8px rgba(68,222,142,0.16));
+}
+.bar-label {
+  position: absolute;
+  bottom: -2.2em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f2fff2;
+  color: #178e68;
+  font-size: 0.89rem;
+  padding: 2px 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px #44de8e10;
+}
+.empty-habits-msg {
+  padding: 18px 0;
+  color: #3e7c60;
+  text-align: center;
+  font-size: 1.08rem;
+  background: #e9ffd9;
+  border-radius: 1rem;
+}

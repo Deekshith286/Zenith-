@@ -1,0 +1,26 @@
+/* Sidebar.css */
+.sidebar {
+  min-width: 180px;
+  width: 180px;
+  height: 100vh;
+  box-sizing: border-box;
+  background: #18a172;
+  color: #fff;
+  padding: 38px 0;
+  border-radius: 0 2rem 2rem 0;
+  margin-right: 26px;
+  box-shadow: 2px 0 16px rgba(33,133,119,0.15);
+}
+@media (max-width: 900px) {
+  .sidebar {
+    min-width: 72px;
+    width: 72px;
+    font-size: 0.9rem;
+    padding: 16px 0;
+  }
+}
+@media (max-width: 600px) {
+  .sidebar {
+    display: none; /* Optionally hide or implement a hamburger menu */
+  }
+}

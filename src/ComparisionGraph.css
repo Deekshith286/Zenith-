@@ -1,0 +1,39 @@
+.comparison-graph-card {
+  background: #f4f9fc;
+  border-radius: 1.15rem;
+  padding: 24px 15px;
+  box-shadow: 0 1px 10px #d7ecff;
+  margin-bottom: 24px;
+}
+.mock-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 28px;
+  height: 120px;
+  margin-top: 10px;
+}
+.mock-bar.comparative {
+  width: 55px;
+  border-radius: 12px 12px 0 0;
+  position: relative;
+  box-shadow: 0 2px 12px #44de8e17;
+  transition: height 0.7s cubic-bezier(.69,.28,.41,1.18), background 0.23s;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.mock-bar.comparative:hover, .mock-bar.comparative:focus {
+  filter: brightness(1.11);
+}
+.bar-label {
+  position: absolute;
+  bottom: -2em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e0f7fa;
+  color: #224c82;
+  font-size: 0.92rem;
+  padding: 3px 12px;
+  border-radius: 9px;
+  box-shadow: 0 2px 9px #44de8e10;
+}

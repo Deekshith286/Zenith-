@@ -1,0 +1,67 @@
+body {
+  background: #fffbe9;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: #f6f6ff;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(125, 112, 255, 0.15);
+  padding: 26px 32px;
+  margin: 24px auto;
+  width: 340px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.signup-card {
+  background: #ffd6d6;
+}
+
+.login-card {
+  background: #d6eaff;
+}
+
+.primary-btn, .secondary-btn {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 9px 0;
+  font-size: 1.05rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+.primary-btn {
+  background: #ff9595;
+  color: #fff;
+}
+
+.secondary-btn {
+  background: #7ebfff;
+  color: #fff;
+}
+
+.input-field {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #cacaca;
+  font-size: 1rem;
+}
+
+h2 {
+  color: #a15ffb;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 95%;
+    padding: 12px 6px;
+  }
+}

@@ -1,0 +1,49 @@
+/* Dashboard.css */
+.dashboard-main {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background: linear-gradient(110deg, #eafdff 60%, #e9ffd9 100%);
+}
+
+/* Main content adapts to full viewport width */
+.dashboard-content {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 32px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+/* Card style for all sections inside dashboard */
+.card, .parallax-card {
+  width: 100%;
+  max-width: 520px;
+  min-width: 0;
+  margin: 0 auto 24px auto;
+  padding: 36px 32px;
+  border-radius: 1.3rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .card, .parallax-card {
+    padding: 22px 10px;
+    max-width: 97vw;
+  }
+  .dashboard-content {
+    padding: 12px 0 0 0;
+  }
+}
+@media (max-width: 600px) {
+  .card, .parallax-card {
+    padding: 13px 4vw;
+    width: 99vw;
+    max-width: none;
+    min-width: 0;
+    border-radius: 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+.fab-btn {
+  position: fixed;
+  right: 38px;
+  bottom: 38px;
+  width: 68px;
+  height: 68px;
+  background: linear-gradient(135deg, #44de8e 60%, #fbc02d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 3rem;
+  box-shadow: 0 6px 28px #44de8e44;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  z-index: 1200;
+}
+.fab-btn:hover, .fab-btn:focus {
+  background: linear-gradient(135deg, #44de8e 30%, #ffe477 100%);
+  box-shadow: 0 12px 32px #44de8e66;
+  transform: scale(1.10);
+}

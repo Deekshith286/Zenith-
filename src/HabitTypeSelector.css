@@ -1,0 +1,44 @@
+/* HabitTypeSelector.css */
+.habit-type-card {
+  background: linear-gradient(120deg, #eafdff 75%, #baffca 100%);
+  border-radius: 1.3rem;
+  box-shadow: 0 6px 18px rgba(50,192,137,0.09);
+  padding: 24px 20px;
+  margin-bottom: 22px;
+}
+.btn-group {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 10px;
+}
+.choice-btn, .active-btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 10px 30px;
+  font-size: 1.08rem;
+  cursor: pointer;
+  font-weight: 600;
+  background: #e0faef;
+  color: #187b5e;
+  transition: background 0.3s, color 0.2s, box-shadow 0.3s;
+  box-shadow: 0 1px 4px #e0ffe0;
+}
+.choice-btn:hover, .active-btn:hover {
+  background: #dafcdf;
+  color: #11994c;
+}
+.active-btn {
+  background: #44de8e; color: #fff;
+  box-shadow: 0 2px 10px #44de8e60;
+}
+.suggested-habit {
+  margin-top: 10px;
+  font-size: 1.04rem;
+  color: #1a7853;
+  background: #e8ffe6;
+  padding: 7px 18px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+.icon-tip { margin-right: 8px; font-size: 1.14em; }

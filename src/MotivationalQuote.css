@@ -1,0 +1,25 @@
+.motivational-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(92deg, #fffbe2 70%, #eafdff 100%);
+  color: #418950;
+  border-radius: 1rem;
+  font-size: 1.22rem;
+  font-weight: 600;
+  margin: 22px 0 15px 0;
+  padding: 16px 32px;
+  box-shadow: 0 2px 10px #44de8e18;
+  cursor: pointer;
+  transition: background 0.2s, color 0.18s, transform 0.13s;
+  outline: none;
+}
+.motivational-quote:focus, .motivational-quote:hover {
+  background: linear-gradient(92deg, #eafdff 70%, #fffbe2 100%);
+  color: #19816e;
+  transform: scale(1.02);
+}
+.quote-icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+}

@@ -1,0 +1,23 @@
+.progress-gradient-bar {
+  width: 100%;
+  background: #e4fadb;
+  border-radius: 12px;
+  height: 16px;
+  margin: 8px 0;
+  overflow: hidden;
+}
+
+.progress-gradient-fill {
+  height: 100%;
+  background: linear-gradient(95deg, #fbc02d, #44de8e, #40bbff);
+  background-size: 200% 200%;
+  animation: moveGradient 3s linear infinite;
+  border-radius: 12px;
+  transition: width 0.75s cubic-bezier(.41,1.2,.52,.99);
+  min-width: 0;
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}

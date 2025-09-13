@@ -1,0 +1,12 @@
+.parallax-card {
+  background: #fafdff;
+  border-radius: 1.4rem;
+  box-shadow: 0 8px 25px #44de8e19;
+  transition: box-shadow 0.2s, transform 0.2s;
+  min-width: 290px;
+  max-width: 490px;
+  margin: 26px auto;
+  padding: 36px 32px;
+  will-change: transform;
+  /* Parallax hover handled by library */
+}
